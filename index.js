@@ -13,7 +13,7 @@ const connectDB = require("./utils/db");
 const errorMiddleware = require("./middlewares/error-middleware");
 app.use(express.json());
 const corsOption = {
-  origin: "http://localhost:5173/",
+  origin: "https://www.awadhkm.com.np/",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   Credentials: true,
 };
